@@ -1,0 +1,129 @@
+/* This css for woman-category and man-category */
+
+.navigation-container{
+	background-color: #d7ccc8;
+	padding: 20px;
+}
+
+.navigation-container ul{
+	text-align: center;
+}
+
+.navigation-container li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+.navigation-container a{
+	font-weight: bold;
+	font-size: 18px;
+	font-size: 400;
+	text-decoration: none;
+	color: black;
+}
+
+.line-header{
+  	width: 98%;
+  	margin: auto;
+  	border: 0.05em solid grey;
+}
+
+.vertical-line{
+	border-left: 1px solid black;
+	height: 10px;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.size-style{
+	font-family: 'Cinzel';
+}
+
+.category-wrapper h2{
+	text-align: center;
+	margin-top: 3em;
+	letter-spacing: 0.5em;
+	font-family: 'Cinzel';
+}
+
+.colors-container{
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.box-black, .box-red, .box-blue,
+.box-cream, .box-brown, .box-pink,
+.box-lightblue, .box-purple, .box-white,
+.box-tosca, .box-darkpurple, .box-grey,
+.box-green, .box-yellow, .box-navy{
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	border: 1px solid #000;
+}
+
+.box-black{
+	background-color: black;
+}
+
+.box-red{
+	background-color: red;
+}
+
+.box-blue{
+	background-color: blue;
+}
+
+.box-cream{
+	background-color: #FFFDD0;
+}
+
+.box-brown{
+	background-color: brown;
+}
+
+.box-pink{
+	background-color: pink;
+}
+
+.box-lightblue{
+	background-color: cornflowerblue;
+}
+
+.box-purple{
+	background-color: purple;
+}
+
+.box-white{
+	background-color: white;
+}
+
+.box-tosca{
+	background-color: #38633c;
+}
+
+.box-darkpurple{
+	background-color: #3b2545;
+}
+
+.box-grey{
+	background-color: grey;
+}
+
+.box-green{
+	background-color: green;
+}
+
+.box-yellow{
+	background-color: yellow;
+}
+
+.box-navy{
+	background-color: #163E69;
+}
+
+.footer-category{
+	margin-top: 45%;
+}
