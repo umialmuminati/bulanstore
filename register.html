@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register - Bulan Store</title>
+	<link rel="stylesheet" type="text/css" href="asset/styles/style.css">
+	<link rel="stylesheet" type="text/css" href="asset/styles/register-style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header>
+	<nav>
+		<div class="logo"><h2>BULAN STORE</h2></div>
+		<div class="image-logo"><img src="asset/images/L0G0-BULAN.png"></div>
+		<div class="menu-position">
+			<button class="button-container">MENU</button>
+			<div class="menu-dropdown-style">
+				<a href="index.html">Home</a>
+				<a href="woman-category.html">Woman</a>
+				<a href="man-category.html">Man</a>
+				<a href="about-us.html">About Us</a>
+				<a href="register.html">Register</a>
+			</div>
+		</div>
+	</nav>
+</header>
+	<div class="content-wrapper">
+			<div class="registration-container">
+				<h1>Creat Account</h1>
+
+				<div class="registration-form">
+					<form action="index.html" method="post" name="form" onsubmit="return validated()">
+						<div>Name</div>
+						<input type="text" name="name" class="display-form" placeholder="Your first name and last name.">
+						<div id="name_error">!!! Please fill up your name</div>
+
+						<div>Gender</div>
+						<input type="radio" name="gender" class="gender-form">Female
+						<input type="radio" name="gender" class="gender-form">Male
+
+						<div>Email</div>
+						<input type="text" name="email" class="display-form" placeholder="Your email (example@gmail.com, example@yahoo.com, etc).">
+						<div id="email_error">!!! Please fill up your email</div>
+
+						<div>Phone Number</div>
+						<input type="text" name="phone" class="display-form" placeholder="Your phone number (must start with 08 / +62).">
+						<div id="phone_error">!!! Please fill up your phone number</div>
+
+						<div>Address</div>
+						<input type="text" name="address" class="display-form" placeholder="Your address (example: Jl. Mawar No. 21, Jakarta Barat).">
+						<div id="address_error">!!! Please fill up your address</div>
+
+						<div>Date of Birth</div>
+						<input type="date" name="dateofbirth" class="display-form">
+
+						<div>Password</div>
+						<input type="password" name="password" class="display-form" placeholder="Password must be more than 8 characters long.">
+						<div id="pass_error">!!! Please enter 8 characters minimum without spaces</div>
+
+						<input type="checkbox" name="agreement"> I agree with the terms and conditions.
+						<div id="agreement_error">!!! You must agree with the terms and conditions</div>
+
+						<input type="submit" value="create" class="submit-button"></input>
+					</form>
+				</div>
+			</div>
+	</div>
+
+<footer class="footer-register">
+	<div class="line"></div>
+	<div class="payment-method">
+		<div class="payment-image">
+			PAYMENT OPTIONS
+			<br>
+			<img src="asset/images/payment-logo/mastercard.png" alt="mastercard">
+			<img src="asset/images/payment-logo/visa.png" alt="visa">
+			<img src="asset/images/payment-logo/gopay logo.png" alt="gopay"> <br>
+			<img src="asset/images/payment-logo/ovo.png" alt="ovo">
+			<img src="asset/images/payment-logo/dana-logo-png.png">
+		</div>
+		<div class="information">
+			INFORMATION
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="woman-category.html">Woman Category</a></li>
+				<li><a href="man-category.html">Man Category</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="register.html">Register</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="line"></div>
+	<div class="logo-footer">
+		<figure>
+			<img src="asset/images/L0G0-BULAN.png">
+			<figcaption>&copy BULAN 2020, All rights reserved.</figcaption>
+		</figure>
+	</div>
+</footer>
+
+<script src="js/form-validation.js"></script>
+</body>
+</html>
